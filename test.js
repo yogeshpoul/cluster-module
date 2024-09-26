@@ -14,7 +14,7 @@ async function sendRequests(userId, count) {
 
 async function main() {
     console.log('Sending requests...');
-    await sendRequests('123', 1);
+    await sendRequests('123', 20);
 }
 
 main();
